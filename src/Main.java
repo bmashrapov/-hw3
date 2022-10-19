@@ -61,5 +61,18 @@ public class Main {
         System.out.println("В школе, где " + classes + " классов, нужно " + white1 + " банок белой краски и " +
               brown1 + " банок коричневой краски.");
 
+        //ex6
+        byte banana = 80;
+        int bananas = banana * 5;
+        byte milk = 105;
+        int milks = milk * 2;
+        byte iceCream = 100;
+        int iceCreams = iceCream * 2;
+        byte egg = 70;
+        int eggs = egg * 4;
+        int shake = bananas + milks + iceCreams + eggs;
+        float shakeKg = shake / 1000f;
+        System.out.println("Этот божественный коктайл с сырыми яйцами имеет вес " + shakeKg + "кг");
+
     }
 }
