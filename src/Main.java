@@ -33,12 +33,13 @@ public class Main {
         boolean k1 = a < 10;
         System.out.println(k1);
         System.out.println(h1);
-
-
-
-
-
-
+        //ex. 3
+        byte teacher1 = 23;
+        byte teacher2 = 27;
+        byte teacher3 = 30;
+        short totalPaper = 480;
+        int forOne = totalPaper / (teacher1 + teacher2 + teacher3);
+        System.out.println("На каждого ученика рассчитано  " + forOne + " листов бумаги");
 
     }
 }
