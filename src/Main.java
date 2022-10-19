@@ -73,6 +73,14 @@ public class Main {
         int shake = bananas + milks + iceCreams + eggs;
         float shakeKg = shake / 1000f;
         System.out.println("Этот божественный коктайл с сырыми яйцами имеет вес " + shakeKg + "кг");
-
+        //ex7
+        byte weight = 7;
+        int weightGr = 7 * 1000;
+        short lossOne = 250;
+        short lossTwo = 500;
+        int daysLossOne = (weightGr / lossOne);
+        int daysLossTwo = (weightGr / lossTwo);
+        System.out.println("При потере по 250 гр, спортсмену нужно дней: " +daysLossOne);
+        System.out.println("При потере по 500 гр, спортсмену нужно дней: " +daysLossTwo);
     }
 }
