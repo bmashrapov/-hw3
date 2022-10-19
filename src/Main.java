@@ -39,7 +39,7 @@ public class Main {
         byte teacher3 = 30;
         short totalPaper = 480;
         int forOne = totalPaper / (teacher1 + teacher2 + teacher3);
-        System.out.println("На каждого ученика рассчитано  " + forOne + " листов бумаги");
+        System.out.println("На каждого ученика рассчитано  " + forOne + " листов бумаги.");
 
     }
 }
