@@ -50,6 +50,16 @@ public class Main {
         System.out.println("За один день машина произвела бутылок " + productivityOneDay + " штук");
         System.out.println("За три дня машина произвела бутылок " + productivityThreeDays + " штук");
         System.out.println("За месяц машина произвела бутылок " + productivityOneMonth + " штук");
+        //ex5
+        byte white = 2;
+        byte brown = 4;
+        byte total = 120;
+        int oneClass = white + brown;
+        int classes = total / oneClass;
+        int white1 = white * classes;
+        int brown1 = brown * classes;
+        System.out.println("В школе, где " + classes + " классов, нужно " + white1 + " банок белой краски и " +
+              brown1 + " банок коричневой краски.");
 
     }
 }
