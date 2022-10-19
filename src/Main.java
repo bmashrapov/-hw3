@@ -82,5 +82,30 @@ public class Main {
         int daysLossTwo = (weightGr / lossTwo);
         System.out.println("При потере по 250 гр, спортсмену нужно дней: " +daysLossOne);
         System.out.println("При потере по 500 гр, спортсмену нужно дней: " +daysLossTwo);
+        //ex8
+        int salaryM = 67760;
+        int salaryD = 83690;
+        int salaryK = 76230;
+        double salaryM1 = salaryM * 0.1;
+        double salaryD1 = salaryD * 0.1;
+        double salaryK1 = salaryK * 0.1;
+        double salaryMCutMonth = salaryM + salaryM1;
+        double salaryDCutMonth = salaryD + salaryD1;
+        double salaryKCutMonth = salaryK + salaryK1;
+        System.out.println("Зарплата Маши через месяц рублей: " + salaryMCutMonth);
+        System.out.println("Зарплата Дениса через месяц рублей: " + salaryDCutMonth);
+        System.out.println("Зарплата Кристины через месяц рублей: " + salaryKCutMonth);
+        int salaryMForYear = salaryM * 12;
+        int salaryDForYear = salaryD * 12;
+        int salaryKForYear = salaryK * 12;
+        double salaryMCutYear = salaryMCutMonth * 12;
+        double salaryDCutYear = salaryDCutMonth * 12;
+        double salaryKCutYear = salaryKCutMonth * 12;
+        double salaryDifM = salaryMCutYear - salaryMForYear;
+        double salaryDifD = salaryDCutYear - salaryDForYear;
+        double salaryDifK = salaryKCutYear - salaryKForYear;
+        System.out.println("За год Маша зарабатывала " + salaryMForYear + " , а будет зарабатывать " + salaryMCutYear + " рублей. Разница " + salaryDifM);
+        System.out.println("За год Маша зарабатывала " + salaryDForYear + " , а будет зарабатывать " + salaryDCutYear + " рублей. Разница " + salaryDifD);
+        System.out.println("За год Маша зарабатывала " + salaryKForYear + " , а будет зарабатывать " + salaryKCutYear + " рублей. Разница " + salaryDifK);
     }
 }
