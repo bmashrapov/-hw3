@@ -40,6 +40,16 @@ public class Main {
         short totalPaper = 480;
         int forOne = totalPaper / (teacher1 + teacher2 + teacher3);
         System.out.println("На каждого ученика рассчитано  " + forOne + " листов бумаги.");
+        //ex4
+        byte productivityOneMinute = 8;
+        int productivityTwentyMinutes = productivityOneMinute * 20;
+        int productivityOneDay = productivityOneMinute * 60 * 24;
+        int productivityThreeDays = productivityOneDay * 3;
+        int productivityOneMonth = productivityOneDay * 30;
+        System.out.println("За двадцать минут машина произвела бутылок " + productivityTwentyMinutes + " штук");
+        System.out.println("За один день машина произвела бутылок " + productivityOneDay + " штук");
+        System.out.println("За три дня машина произвела бутылок " + productivityThreeDays + " штук");
+        System.out.println("За месяц машина произвела бутылок " + productivityOneMonth + " штук");
 
     }
 }
